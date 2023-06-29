@@ -1,0 +1,56 @@
+{
+  "theme": {
+    "accent": {
+      "default": {
+        "value": "{theme.fg.default}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{theme.fg.subtle}",
+        "type": "color"
+      },
+      "subtler": {
+        "value": "{theme.fg.subtler}",
+        "type": "color"
+      },
+      "emphasis": {
+        "value": "{theme.accent.default}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{colors.gray.300}",
+        "type": "color"
+      }
+    },
+    "link": {
+      "default": {
+        "value": "{theme.fg.default}",
+        "type": "color"
+      }
+    }
+  },
+  "fontFamilies": {
+    "default": {
+      "value": "Balsamiq Sans",
+      "type": "fontFamilies"
+    }
+  },
+  "fontWeights": {
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    }
+  }
+}

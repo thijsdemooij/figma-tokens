@@ -1,0 +1,12 @@
+{
+  "tokenSetOrder": [
+    "base/colors",
+    "base/typography",
+    "base/shadows",
+    "base/dimension",
+    "base/radius",
+    "themes/dark",
+    "themes/light",
+    "themes/wireframe"
+  ]
+}

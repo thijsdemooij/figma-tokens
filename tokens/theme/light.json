@@ -206,13 +206,22 @@
     },
     "overlay": {
       "on-image": {
-        "value": "rgba({colors.gray.950},0.60)",
-        "type": "color"
+        "value": "{colors.gray.950}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.6",
+              "space": "hsl"
+            }
+          }
+        }
       }
     },
     "statusbar": {
       "color": {
-        "value": "#000",
+        "value": "{colors.black}",
         "type": "color"
       }
     },

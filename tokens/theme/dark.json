@@ -49,12 +49,12 @@
         "value": "{colors.pink.500}",
         "type": "color"
       },
-      "subtle": {
-        "value": "{colors.pink.800}",
-        "type": "color"
-      },
       "subtler": {
         "value": "{colors.pink.950}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{colors.pink.800}",
         "type": "color"
       },
       "emphasis": {
@@ -206,8 +206,17 @@
     },
     "overlay": {
       "on-image": {
-        "value": "rgba({colors.gray.950},0.80)",
-        "type": "color"
+        "value": "{colors.gray.950}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.8",
+              "space": "hsl"
+            }
+          }
+        }
       }
     },
     "statusbar": {

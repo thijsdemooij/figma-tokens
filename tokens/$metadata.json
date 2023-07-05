@@ -5,8 +5,8 @@
     "base/shadows",
     "base/dimension",
     "base/radius",
-    "themes/dark",
-    "themes/light",
-    "themes/wireframe"
+    "theme/dark",
+    "theme/light",
+    "theme/wireframe"
   ]
 }

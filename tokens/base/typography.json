@@ -1,7 +1,7 @@
 {
   "fontFamilies": {
     "default": {
-      "value": "Balsamiq Sans",
+      "value": "Inter",
       "type": "fontFamilies"
     }
   },
@@ -244,21 +244,21 @@
         }
       },
       "medium": {
-        "normal": {
-          "value": {
-            "fontFamily": "{fontFamilies.default}",
-            "fontWeight": "{fontWeights.medium}",
-            "lineHeight": "{lineHeights.regular}",
-            "fontSize": "{fontSizes.regular}",
-            "letterSpacing": "{letterSpacing.regular}"
-          },
-          "type": "typography"
-        },
         "tight": {
           "value": {
             "fontFamily": "{fontFamilies.default}",
             "fontWeight": "{fontWeights.medium}",
             "lineHeight": "{lineHeights.tight}",
+            "fontSize": "{fontSizes.regular}",
+            "letterSpacing": "{letterSpacing.regular}"
+          },
+          "type": "typography"
+        },
+        "normal": {
+          "value": {
+            "fontFamily": "{fontFamilies.default}",
+            "fontWeight": "{fontWeights.medium}",
+            "lineHeight": "{lineHeights.regular}",
             "fontSize": "{fontSizes.regular}",
             "letterSpacing": "{letterSpacing.regular}"
           },

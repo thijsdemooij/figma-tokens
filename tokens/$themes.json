@@ -9,9 +9,7 @@
       "base/shadows": "source",
       "base/dimension": "source",
       "base/radius": "source",
-      "theme/dark": "disabled",
-      "theme/light": "enabled",
-      "theme/wireframe": "disabled"
+      "theme/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:219:429",
     "$figmaModeId": "219:0",
@@ -77,9 +75,7 @@
       "base/shadows": "source",
       "base/dimension": "source",
       "base/radius": "source",
-      "theme/dark": "enabled",
-      "theme/light": "disabled",
-      "theme/wireframe": "disabled"
+      "theme/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:219:429",
     "$figmaModeId": "219:1",
@@ -145,7 +141,6 @@
       "base/shadows": "source",
       "base/dimension": "source",
       "base/radius": "source",
-      "theme/dark": "disabled",
       "theme/light": "enabled",
       "theme/wireframe": "enabled"
     },

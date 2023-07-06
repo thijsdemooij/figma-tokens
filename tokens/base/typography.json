@@ -90,7 +90,8 @@
         "fontSize": "{fontSizes.title1}",
         "letterSpacing": "{letterSpacing.regular}"
       },
-      "type": "typography"
+      "type": "typography",
+      "description": "typography.title1"
     },
     "title2": {
       "value": {

@@ -27,11 +27,11 @@ jobs:
 
       - name: Install token-transformer
         run: npm install token-transformer
-        working-directory: ./tokens
+        working-directory: ./
       
       - name: Run token-transformer
-        run: npx token-transformer tokens/tokens.json tokens/transformed-tokens.json
-        working-directory: ./tokens
+        run: npx token-transformer tokens.json transformed-tokens.json
+        working-directory: ./
       
       - name: Commit changes
         uses: EndBug/add-and-commit@v9

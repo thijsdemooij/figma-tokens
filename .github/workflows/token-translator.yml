@@ -32,6 +32,14 @@ jobs:
       - name: Run token-transformer
         run: npx token-transformer tokens.json transformed-tokens.json
         working-directory: ./
+
+      - name: Install style-dictionary
+        run: npm install -D style-dictionary
+        working-directory: ./
+  
+      - name: Run style-dictionary
+        run: npx style-dictionary build
+        working-directory: ./
       
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
